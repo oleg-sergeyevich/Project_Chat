@@ -17,7 +17,7 @@ public:
 private:
 	bool chatSwitch_ = false; // the value of this variable is used to track the operation of the program
 	std::shared_ptr<User> activeUser_ = nullptr; // the value of this pointer is used to track user activity
-	std::vector <User> userData; // stores the data of all registered users (arguments login, password, name)
+	std::vector <User> userData; // stores the data of all registered users (arguments: login, password, name)
 	std::vector <Message> messageData; // stores the data of all written messages (arguments: from, to, text)
 
 	void userAdminRegistration(); // user registration: login - "All", name "all"
