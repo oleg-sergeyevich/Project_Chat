@@ -1,6 +1,5 @@
 #pragma once
 #include <exception>
-#include <string>
 
 class ExceptionUserLogin : public std::exception // registration exception, login not available
 {
